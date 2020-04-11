@@ -7,13 +7,10 @@ let package = Package(
     products: [
         .library(name: "amiitool", targets: ["amiitool"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/siddarthgandhi/mbedTLS.git", .branch("master")),
-    ],
     targets: [
         .target(
             name: "amiitool",
-            dependencies: ["mbedTLS"]
+            dependencies: []
         ),
     ]
 )
