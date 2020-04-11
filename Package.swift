@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "amiitool",
-            path: "./Sources/amiitool"
+            dependencies: []
         ),
     ]
 )
